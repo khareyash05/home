@@ -134,20 +134,20 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    // {
+    //   role: 'Research Intern',// Here Add Company Name
+    //   companylogo: require('../assets/img/stan.png'),
+    //   date: 'Sept 2022 – Present',
+    // },
     {
-      role: 'Research Intern',// Here Add Company Name
-      companylogo: require('../assets/img/stan.png'),
-      date: 'Sept 2022 – Present',
-    },
-    {
-      role: 'Undergraduate Research Assistant',// Here Add Company Name
+      role: 'Undergraduate Researcher at Ajay Kumar Garg Engineering College',// Here Add Company Name
       companylogo: require('../assets/img/akg.png'),
-      date: 'Oct 2021 – Aug 2022',
+      date: 'Oct 2021 – Present',
     },
     {
       role: 'Mentor at Open Source at GWOC',// Here Add Company Name
       companylogo: require('../assets/img/gwoc.png'),
-      date: 'Sept 2021 - present',
+      date: 'Sept 2021 - Dec 2021',
     },
     {
       role: 'Full Stack Web Development Intern at Procial',// Here Add Company Name
