@@ -16,20 +16,20 @@ const mainBody = {
       url: "https://github.com/khareyash05",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/khareyash05409/",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/khareyash05/",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/yash-khare-0978821aa/",
     },
     {
       image: "fa-twitter",
       url: "https://twitter.com/YashKha57954753",
+    },
+    {
+      image: "fa-facebook",
+      url: "https://www.facebook.com/khareyash05409/",
+    },
+    {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/khareyash05/",
     },
   ],
 };
@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Yash Khare. I’m a student pursuing bachelors in Computer Science and Engineering at AKGEC,Ghaziabad. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time, I love to play tennis and listen to rock music to cheer me up for the next task.If you dont find me at Home , you can find me at the nearest planetariums(I love to observe and talk about the universe).Altogether, I would sum up myself as an enthusiast and a hardworker; who would do anything to complete the task.",
-  resume: "https://drive.google.com/file/d/14g12vcEHarrkxibnHFnu9EoRZassoxGV/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/19aP1J3tpMwVl4A_S1qWnT9zjhSfn9xAU/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "khareyash05", //i.e."johnDoe12Gh"
   reposLength: 6,
-  specificRepos: [],
+  specificRepos: ["tackle2-hub"],
 };
 
 // Leadership SECTION
@@ -102,12 +102,12 @@ const skills = {
   hardSkills: [
     { name: "NodeJS", value: 90 },
     { name: "ReactJS", value: 80 },
+    { name: "Golang", value: 75 },
     { name: "Computer Vision", value: 75 },
     { name: "Jupyter Notebook", value: 80 },
     { name: "Python", value: 75 },
     { name: "C/C++", value: 65 },
     { name: "JavaScript", value: 90 },
-    { name: "Golang", value: 55 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Software Engineering! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "khareyash05@gmail.com",
 };
 
@@ -134,15 +134,15 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
-    // {
-    //   role: 'Research Intern',// Here Add Company Name
-    //   companylogo: require('../assets/img/stan.png'),
-    //   date: 'Sept 2022 – Present',
-    // },
     {
-      role: 'Undergraduate Researcher at Ajay Kumar Garg Engineering College',// Here Add Company Name
+      role: 'Linux Foundation Mentee @ Konveyor(By RedHat)',// Here Add Company Name
+      companylogo: require('../assets/img/lfx.png'),
+      date: 'Sept 2022 – Present',
+    },
+    {
+      role: 'Computer Vision Researcher at Ajay Kumar Garg Engineering College',// Here Add Company Name
       companylogo: require('../assets/img/akg.png'),
-      date: 'Oct 2021 – Present',
+      date: 'Nov 2021 – Apr 2023',
     },
     {
       role: 'Mentor at Open Source at GWOC',// Here Add Company Name
