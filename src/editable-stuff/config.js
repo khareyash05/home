@@ -17,7 +17,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/yash-khare-0978821aa/",
+      url: "https://www.linkedin.com/in/khareyash05",
     },
     {
       image: "fa-twitter",
@@ -68,7 +68,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "khareyash05", //i.e."johnDoe12Gh"
   reposLength: 6,
-  specificRepos: ["tackle2-hub"],
+  specificRepos: ["MetaVersus"],
 };
 
 // Leadership SECTION
@@ -100,9 +100,11 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "NodeJS", value: 90 },
+    { name: "Golang", value: 85 },
+    { name: "Kubenetes", value: 60 },
+    { name: "Docker", value: 70 },
+    { name: "NodeJS", value: 80 },
     { name: "ReactJS", value: 80 },
-    { name: "Golang", value: 75 },
     { name: "Computer Vision", value: 75 },
     { name: "Jupyter Notebook", value: 80 },
     { name: "Python", value: 75 },
@@ -137,7 +139,7 @@ const experiences = {
     {
       role: 'Linux Foundation Mentee @ Konveyor(By RedHat)',// Here Add Company Name
       companylogo: require('../assets/img/lfx.png'),
-      date: 'Sept 2022 – Present',
+      date: 'June 2023 – Present',
     },
     {
       role: 'Computer Vision Researcher at Ajay Kumar Garg Engineering College',// Here Add Company Name
